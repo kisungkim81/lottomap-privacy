@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로또어디 - 로또 판매점 찾기</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .emoji {
+            font-size: 5em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 20px 0;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+        .links {
+            margin-top: 40px;
+        }
+        a {
+            display: inline-block;
+            background-color: white;
+            color: #667eea;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            margin: 10px;
+            font-weight: bold;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        .description {
+            background-color: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji">🎰</div>
+        <h1>로또어디</h1>
+        <p>전국 로또 판매점을 쉽게 찾아보세요!</p>
+
+        <div class="description">
+            <p>가까운 로또 판매점 위치를 지도로 확인하고,<br>
+            판매점 정보를 실시간으로 업데이트합니다.</p>
+        </div>
+
+        <div class="links">
+            <a href="privacy_policy.html">개인정보처리방침</a>
+            <a href="lotto_stores.csv" download>판매점 데이터 다운로드</a>
+        </div>
+
+        <p style="margin-top: 50px; font-size: 0.9em; opacity: 0.8;">
+            © 2025 로또어디. All rights reserved.
+        </p>
+    </div>
+</body>
+</html>
